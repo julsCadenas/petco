@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import logo from '../assets/logo.png';
 
 const Header = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);   
@@ -11,17 +12,19 @@ const Header = () => {
     <header className='fixed top-0 font-poppins bg-white2 text-purple3 flex items-center justify-around h-16 w-full' >
         
         {/* pc navbar */}
-        <h1 className='font-bold text-xl md:text-3xl transition-all cursor-pointer'>NootNote</h1>    
+        <figure className='cursor-pointer'>
+            <img src={logo} alt="NootNote" className='max-w-[150px]'/>
+        </figure>    
         <nav className='hidden lg:flex'>
             <ul className='flex gap-5 font-medium'>
                 <li>
                     <button className=' transition-all'>Home</button>
                 </li>
                 <li>
-                    <button className=' transition-all'>Dashboard</button>
+                    <button className=' transition-all'>Notes</button>
                 </li>
                 <li>
-                    <button className=' transition-all'>Courses</button>
+                    <button className=' transition-all'>Subjects</button>
                 </li>
                 <li>
                 </li>
@@ -53,9 +56,9 @@ const Header = () => {
                 >
                     <div className="flex flex-col h-full">
                         <div className="flex justify-between items-center p-3">
-                            <h1 className="font-bold text-xl md:text-3xl transition-all cursor-pointer'">
-                                NootNote
-                            </h1>
+                        <figure className='cursor-pointer'>
+                            <img src={logo} alt="NootNote" className='max-w-[150px]'/>
+                        </figure>    
                             <button onClick={toggleSidebar} className="text-black focus:outline-none transition-colors px-3">
                                 <svg
                                     className="w-6 h-6"
@@ -68,11 +71,16 @@ const Header = () => {
                                 </svg>
                             </button>
                         </div>
-                        <ul className="flex flex-col p-4 space-y-4 text-lg">
+                        <ul className="flex flex-col p-4 font-semibold space-y-4 text-lg">
                             <li className="cursor-pointer transition-colors" onClick={toggleSidebar}>
                                 <button>Home</button>
                             </li>
-
+                            <li className="cursor-pointer transition-colors" onClick={toggleSidebar}>
+                                <button>Notes</button>
+                            </li>
+                            <li className="cursor-pointer transition-colors" onClick={toggleSidebar}>
+                                <button>Subjects</button>
+                            </li>
                         </ul>
                     </div>
                 </div>

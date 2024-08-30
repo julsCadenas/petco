@@ -5,6 +5,7 @@ import Hero from './components/hero';
 import About from './components/about';
 import Services from './components/services';
 import MisVIs from './components/misvis';
+import Footer from './ui/footer';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Services />
       <MisVIs />
+      <Footer />
     </main>
   )
 }
