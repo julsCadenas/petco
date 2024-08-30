@@ -9,24 +9,25 @@ const Header = () => {
     };
 
   return (
-    <header className='fixed top-2 left-2 md:left-20 xl:left-96 right-2 md:right-20 xl:right-96 font-poppins bg-white2 flex items-center justify-between px-7 md:px-10 h-16 rounded-3xl' >
+    <header className='fixed top-2 left-2 md:left-20 2xl:left-96 right-2 md:right-20 2xl:right-96 font-poppins bg-white2 flex items-center justify-between px-7 md:px-10 h-16 rounded-3xl' >
         
         {/* pc navbar */}
         <figure className='cursor-pointer'>
             <img src={logo} alt="NootNote" className='max-w-[150px]'/>
         </figure>    
-        <nav className='hidden lg:flex'>
+        <nav className='hidden lg:flex gap-10'>
             <ul className='flex gap-5 font-medium'>
                 <li>
                     <button className='hover:text-red2 transition-all'>Home</button>
                 </li>
                 <li>
-                    <button className='hover:text-blue2 transition-all'>Notes</button>
+                    <button className='hover:text-blue2 transition-all'>Learn</button>
                 </li>
                 <li>
-                    <button className='hover:text-yellow2 transition-all'>Subjects</button>
+                    <button className='hover:text-yellow2 transition-all'>Quizzes</button>
                 </li>
                 <li>
+                    <button className='hover:text-red2 transition-all'>Community</button>
                 </li>
             </ul>
             <button className='hover:text-red2 transition-all'><strong>Jansen</strong></button>
