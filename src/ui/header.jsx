@@ -9,7 +9,7 @@ const Header = () => {
     };
 
   return (
-    <header className='fixed top-0 font-poppins bg-white2 text-purple3 flex items-center justify-around h-16 w-full' >
+    <header className='fixed top-0 font-poppins bg-white2 text-purple3 flex items-center justify-around h-16 w-full rounded-xl' >
         
         {/* pc navbar */}
         <figure className='cursor-pointer'>

@@ -10,7 +10,7 @@ import Footer from './ui/footer';
 function App() {
 
   return (
-    <main className='flex items-center justify-center flex-col bg-white2'>
+    <main className='flex items-center justify-center flex-col bg-white'>
       <Header />
       <Hero />
       <About />

@@ -7,7 +7,7 @@ const Hero = () => {
   const hoverColors = ['#e0696d', '#67c1ac', '#e8bf62'];
 
   return (
-    <main className='flex items-center justify-center flex-col font-poppins p-20 pt-32 md:pt-40 w-full bg-white2'>
+    <main className='flex items-center justify-center flex-col font-poppins p-20 pt-32 md:pt-40 w-full bg-white'>
       <section className='font-poppins font-extrabold text-center text-8xl lg:text-9xl text-purple2 cursor-default'>
         {text.split("").map((char, index) => (
           <span 

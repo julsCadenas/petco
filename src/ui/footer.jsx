@@ -11,7 +11,7 @@ const Footer = () => {
 
   return (
     <footer className='bg-yellow2 w-full p-10 h-60 rounded-t-xl font-poppins flex flex-col gap-3 justify-center items-center'>
-        <aside className='text-white2'>
+        <aside className='text-white2 flex flex-col items-center'>
             <p className='font-bold text-5xl'>NootNote</p>
             <p className='font-semibold'>A note sharing community</p>
         </aside>
