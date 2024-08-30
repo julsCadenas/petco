@@ -6,6 +6,7 @@ import About from './components/about';
 import Services from './components/services';
 import MisVIs from './components/misvis';
 import Footer from './ui/footer';
+import Stats from './components/stats';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Services />
       <MisVIs />
+      <Stats />
       <Footer />
     </main>
   )
