@@ -7,10 +7,10 @@ import About from './components/about';
 function App() {
 
   return (
-    <main className='flex items-center justify-center flex-col bg-bgpurple'>
+    <main className='flex items-center justify-center flex-col bg-white2'>
       <Header />
       <Hero />
-      <About />
+      {/* <About /> */}
     </main>
   )
 }

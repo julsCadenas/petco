@@ -6,13 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        purple2: '#964f99',
-        purple3: '#fd2fbc',
-        green2: '#9fc10f',
-        orange2: '#FF8904',
-        pink2: '#FF22BD',
-        blue2: '#0FCBF5',
-        bgpurple: '#141118'
+        white2: '#f2ece9',
+        blue2: '#67c1ac',
+        peach2: '#67c1ac',
+        yellow2: '#e8bf62',
+        red2: '#e0696d'
       },
       fontFamily: {
         poppins: ['Poppins'],
