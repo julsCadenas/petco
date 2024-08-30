@@ -10,7 +10,7 @@ function App() {
     <main className='flex items-center justify-center flex-col bg-white2'>
       <Header />
       <Hero />
-      {/* <About /> */}
+      <About />
     </main>
   )
 }

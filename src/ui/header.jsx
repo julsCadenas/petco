@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Header = () => {
-    const [isSidebarOpen, setIsSidebarOpen] = useState(true);   
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);   
 
     const toggleSidebar = () => {   
         setIsSidebarOpen(!isSidebarOpen);
@@ -26,7 +26,7 @@ const Header = () => {
                 <li>
                 </li>
             </ul>
-            <button className=' transition-all'>Hello, <strong>Jansen</strong></button>
+            <button className=' transition-all'><strong>Jansen</strong></button>
         </nav>
         {/* sidebar toggle */}
         <p
