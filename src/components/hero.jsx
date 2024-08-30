@@ -7,8 +7,8 @@ const Hero = () => {
   const hoverColors = ['#e0696d', '#67c1ac', '#e8bf62'];
 
   return (
-    <main className='flex items-center justify-center flex-col font-poppins p-20 pt-32 md:pt-40 pl-10 w-full bg-white2'>
-      <section className='font-poppins font-extrabold pl-5 md:pl-0 text-8xl lg:text-9xl text-purple2 cursor-default'>
+    <main className='flex items-center justify-center flex-col font-poppins p-20 pt-32 md:pt-40 w-full bg-white2'>
+      <section className='font-poppins font-extrabold text-center text-8xl lg:text-9xl text-purple2 cursor-default'>
         {text.split("").map((char, index) => (
           <span 
             key={index} 
@@ -24,8 +24,8 @@ const Hero = () => {
           </span>
         ))}
       </section>
-      <section className=''>
-        <p className='font-semibold text-base md:text-xl'>A note sharing community</p>
+      <section className='mt-3'>
+        <p className='font-semibold text-center text-sm md:text-xl'>A note sharing community</p>
       </section>
     </main>
   );
