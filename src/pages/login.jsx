@@ -17,10 +17,10 @@ const Login = () => {
       ></div>
 
       {/* Content */}
-      <div className='relative z-10 flex flex-wrap gap-5 items-center bg-white rounded-xl pb-5 md:pb-0 pl-5 md:pl-0 pt-14 md:pt-14 pr-5 justify-center'>
+      <div className='relative z-10 flex flex-wrap gap-5 items-center bg-white rounded-xl pb-5 md:pb-0 pl-5 md:pl-0 pt-14 md:pt-0 pr-5 justify-center'>
         
         {/* Red Bar */}
-        <div className='justify-center absolute top-0 left-0 w-full h-10 bg-red-500 rounded-t-xl flex items-center'>
+        <div className='justify-center absolute top-0 left-0 w-full h-10 bg-red2 rounded-t-xl flex items-center'>
           <div className='w-3/4 border-t-4 border-white2 rounded-full '></div>
         </div>
 
@@ -42,7 +42,7 @@ const Login = () => {
             <aside className='flex items-center gap-3 text-xs md:text-sm'>
               <p>Already have an account?</p>
               <span>
-                <button className='border border-blue2 hover:bg-blue2 hover:text-white2 transition-colors rounded-full px-3 py-1'>Sign in</button>
+                <Link to='/signin' className='border border-blue2 hover:bg-blue2 hover:text-white2 transition-colors rounded-full px-3 py-1'>Sign in</Link>
               </span>
             </aside>
           </section>
