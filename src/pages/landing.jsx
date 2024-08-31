@@ -6,6 +6,7 @@ import Services from '../components/services';
 import MisVIs from '../components/misvis';
 import Footer from '../ui/footer';
 import Stats from '../components/stats';
+import Team from '../components/team';
 
 const Landing = () => {
   return (
@@ -16,6 +17,7 @@ const Landing = () => {
       <Services />
       <MisVIs />
       <Stats />
+      <Team />
       <Footer />
     </main>
   )
