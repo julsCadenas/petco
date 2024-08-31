@@ -32,7 +32,7 @@ const SignIn = () => {
 
           <section className='flex justify-between items-center pb-10'>
             <aside>
-              <Link to='/landing' className='bg-blue2 rounded-full text-white2 flex items-center'>
+              <Link to='/' className='bg-blue2 rounded-full text-white2 flex items-center'>
                 <span className="material-symbols-outlined">
                   chevron_left
                 </span>

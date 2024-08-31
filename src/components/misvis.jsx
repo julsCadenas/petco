@@ -19,4 +19,4 @@ const MisVIs = () => {
   )
 }
 
-export default MisVIs
+export default MisVIs;
