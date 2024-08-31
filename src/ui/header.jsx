@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
 const Header = () => {
@@ -30,7 +31,7 @@ const Header = () => {
                     <button className='hover:text-red2 transition-all'>Community</button>
                 </li>
             </ul>
-            <button className='hover:text-red2 transition-all'><strong>Jansen</strong></button>
+            <Link to='/login' className='hover:text-red2 transition-all'><strong>Login</strong></Link>
         </nav>
         {/* sidebar toggle */}
         <p
@@ -81,6 +82,9 @@ const Header = () => {
                             </li>
                             <li className="cursor-pointer transition-colors" onClick={toggleSidebar}>
                                 <button>Subjects</button>
+                            </li>
+                            <li className="cursor-pointer transition-colors" onClick={toggleSidebar}>
+                                <Link to='/login' >Login</Link>
                             </li>
                         </ul>
                     </div>
