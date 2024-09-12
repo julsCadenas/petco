@@ -1,8 +1,6 @@
-# React + Vite
+# Noot Note
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is Noot Note's landing page, it is the 2nd Place winner for the 2024 Hooked Unitour Hackathon. Noot Note is a collaborative note-sharing platform that boosts leaming through peer reviews, discussions, and A1-generated quizzes. Users earn experience points for their virtual pets by engaging in these activities. Noot Note offers an interactive and immersive educational experience, fostering a dynamic and supportive learning community.
 
-Currently, two official plugins are available:
+See pitch deck here: ![pitch deck link](https://drive.google.com/file/d/12F33EJ_F1uvte9_WEkfHaZnu7lzldAu_/view)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
